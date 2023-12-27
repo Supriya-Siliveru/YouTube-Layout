@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+}
+
+.nav-bar {
+    border: 1px solid black;
+    height: 11vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.nav-bar img {
+    height: 10vh;
+    width: 11vw;
+    margin-left: 1.2vw;
+}
+
+.nav-bar form input {
+    width: 38vw;
+    height: 7.2vh;
+    background-color: rgb(18, 18, 18);
+    border: 1px solid rgb(89, 88, 88);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 16px;
+    margin-left: 13vw;
+    color: #fff;
+}
+
+.fa-bars,
+.fa-magnifying-glass,
+.fa-microphone,
+.fa-video-plus,
+.fa-bell,
+.fa-user {
+    font-size: 23px;
+    color: #fff;
+}
+
+.fa-bars {
+    margin-left: 2vw;
+}
+
+.fa-bell:hover,
+.fa-magnifying-glass,
+.fa-user,
+.fa-microphone {
+    background-color: rgb(47, 46, 46);
+    font-size: 16px;
+    height: 7.2vh;
+    width: 3.1vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-magnifying-glass {
+    border: 1px solid rgb(89, 88, 88);
+    width: 5vw;
+    border-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 0;
+
+}
+
+.fa-microphone {
+    border: 1px solid rgb(47, 46, 46);
+    margin-left: 1.5vw;
+}
+
+.fa-bell {
+    margin-left: 3vw;
+    font-size: 17px;
+}
+
+.fa-bell:hover {
+    margin-left: 1.5vw;
+}
+
+.fa-user {
+    margin-left: 1.7vw;
+}
+
+.nav-bar-vertical {
+    border: 1px solid black;
+    height: 80vh;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 11vh;
+}
+
+.nav-bar-vertical button {
+    background-color: black;
+    color: #fff;
+    height: 12vh;
+    width: 3.5vw;
+    margin-top: 3vh;
+    font-size: 10px;
+    border: none;
+}
+
+.nav-bar-vertical button:hover {
+    background-color: rgb(50, 49, 49);
+    width: 5vw;
+    height: 12vh;
+    border-radius: 5px;
+}
+#searchButton{
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+}
+
+.fa-house,
+.fa-bolt,
+.fa-square-caret-right,
+.fa-download {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.container-2 {
+    display: flex;
+}
+
+.nav-bar-horizon {
+    border: 1px solid black;
+    height: 9.5vh;
+    width: 95vw;
+    background-color: black;
+    position: fixed;
+    top: 11vh;
+    margin-left: 5vw;
+}
+
+.nav-bar-horizon button {
+    padding: 7px 12px;
+    border-radius: 10px;
+    margin-left: 0.9vw;
+    margin-top: 1vh;
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+    border: none;
+}
+
+.nav-bar-horizon button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.videos-sec {
+    margin: 0;
+    width: 93.7vw;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 20.5vh;
+    margin-left: 5vw;
+}
+
+html {
+    scroll-padding-top: 20.5vh;
+    scroll-behavior: smooth;
+}
+
+.video-boxes {
+    display: flex;
+    margin-left: 2px;
+    padding-top: 3vh;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.videos video {
+    width: 260px;
+    height: 170px;
+}
+
+.videos {
+    height: 65vh;
+}
+
+.details {
+    color: #fff;
+    padding: 0 3vw 0 3vw;
+    text-align: justify;
+}
+
+.details h4 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.details p {
+    color: rgb(151, 151, 151);
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
